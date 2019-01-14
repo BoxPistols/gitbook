@@ -4,13 +4,9 @@ description: front end develop
 
 # FE Develop
 
-## Getting Super Powers
+## About this book
 
-Becoming a super hero is a fairly straight forward process:
-
-```
-$ give me super-powers
-```
+{% embed url="https://atit.gitbook.io/book/" %}
 
 {% hint style="info" %}
  Super-powers are granted randomly so please submit an issue if you're not happy with yours.
