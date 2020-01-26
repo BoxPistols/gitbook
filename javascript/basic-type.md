@@ -181,3 +181,35 @@ console.log(total);
 
 ```
 
+### アロー関数
+
+```javascript
+let el = document.querySelector('.content');
+
+
+// default js
+const sum = function (a, b, c) {
+  return a + b + c
+};
+
+// arrow js
+const sum = (a, b, c) => {
+  return a + b + c
+};
+
+// 省略表現
+const sum = (a, b, c) =>  a + b + c;
+
+const result = sum(12, 3, 4);
+el.innerHTML = result;
+
+// 関数式 無名関数
+const d = function (a) {
+  return a * 2;
+};
+
+// 関数式省略 / 単体だと(仮引数):（） は無くて良い / return省略 & 一行で可
+const d = a => a * 2;
+el.innerHTML = d(12);
+```
+
