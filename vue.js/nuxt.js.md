@@ -209,7 +209,7 @@ const d = a => a * 2;
 el.innerHTML = d(12);
 ```
 
-### スコープ
+### スコープ / グローバル変数
 
 ```javascript
 const x = 2;
@@ -221,6 +221,19 @@ function f() {
 
 f(); // 1 or もし無ければグローバルな変数を読みに行く↑ = 2
 console.log(x); // 2 { この中はPrivateなので読まない }
+```
 
+### スコープのブロック分け
+
+```javascript
+  {
+    const x = 300;
+    console.log(x);
+  }
+  
+  { // ブロックで分けると両方出せる { } が無いとエラーになる
+    const x = 100;
+    console.log(x);
+  }
 ```
 
