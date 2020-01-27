@@ -154,3 +154,82 @@ showAd2('ナイスな広告'); // 実引数
 
 ```
 
+### 関数宣言・関数式・無名関数
+
+```javascript
+// 関数宣言
+function sum(x, y, z) { // 関数(仮引数)
+  //console.log(x + y + z);
+  return x + y + z; // 処理結果を値で返したい
+  // return以降は何も機能しない
+}
+
+// 関数式 function()無名関数
+const sum = function(x, y, z) { // 関数(仮引数)
+  //console.log(x + y + z);
+  return x + y + z; // 処理結果を値で返したい
+  // return以降は何も機能しない
+};
+
+/*
+ returnにすることで、
+ sum関数自体を式に出来るようになった
+ 関数名(実引数, 実引数, ...)
+ */
+const total = sum(12, 3, 4) + sum(2, 3, 4);
+console.log(total);
+
+```
+
+### アロー関数
+
+```javascript
+let el = document.querySelector('.content');
+
+
+// default js
+const sum = function (a, b, c) {
+  return a + b + c
+};
+
+// arrow js
+const sum = (a, b, c) => {
+  return a + b + c
+};
+
+// 省略表現
+const sum = (a, b, c) =>  a + b + c;
+
+const result = sum(12, 3, 4);
+el.innerHTML = result;
+
+// 関数式 無名関数
+const d = function (a) {
+  return a * 2;
+};
+
+// 関数式省略 / 単体だと(仮引数):（） は無くて良い / return省略 & 一行で可
+const d = a => a * 2;
+el.innerHTML = d(12);
+```
+
+### map
+
+```javascript
+{
+  let el = document.querySelector('.content');
+  const prices = [180, 190, 200];
+
+  const upDatePrices = prices.map((price) => {
+    return price * 2;
+  });
+  console.log(upDatePrices);
+  el.innerHTML = upDatePrices;
+
+  // to Arrow function
+  const upPrice2 = prices.map(price => price * 20);
+  console.log(upPrice2);
+  el.innerHTML = upDatePrices;
+}
+```
+

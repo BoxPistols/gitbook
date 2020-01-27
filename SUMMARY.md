@@ -17,4 +17,5 @@
 ## JavaScript
 
 * [Basic](javascript/basic-type.md)
+* [Object](object.md)
 
