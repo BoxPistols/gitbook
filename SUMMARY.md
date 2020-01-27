@@ -16,6 +16,6 @@
 
 ## JavaScript
 
-* [Basic](javascript/basic-type.md)
+* [Basic JavaScript基本構文](javascript/basic-type.md)
 * [Object](object.md)
 

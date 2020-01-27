@@ -2,9 +2,11 @@
 description: Basic Dott
 ---
 
-# Basic
+# Basic JavaScript基本構文
 
 Source: [https://github.com/BoxPistols/JavaScriptBasicDott.git](https://github.com/BoxPistols/JavaScriptBasicDott.git)
+
+参考: [https://www.javadrive.jp/javascript/](https://www.javadrive.jp/javascript/)
 
 ### Type 型判定
 
@@ -213,6 +215,10 @@ const d = a => a * 2;
 el.innerHTML = d(12);
 ```
 
+## 
+
+## Object
+
 ### map
 
 ```javascript
@@ -232,4 +238,57 @@ el.innerHTML = d(12);
   el.innerHTML = upDatePrices;
 }
 ```
+
+### Array Loop
+
+```javascript
+'use strict';
+
+{
+  const scores = [80, 90, 40, 70];
+
+  // console.log(`Score: ${scores[0]}`);
+  // console.log(`Score: ${scores[1]}`);
+  // console.log(`Score: ${scores[2]}`);
+
+  // for (let i = 0; i < 3; i++) {
+  for (let i = 0; i < scores.length ; i++) {
+    console.log(`${i}: ${scores[i]}`)
+  }
+}
+
+```
+
+### Array 操作 push shift pop unshuft
+
+![TODO: &#x753B;&#x50CF;&#x5DEE;&#x3057;&#x66FF;&#x3048;](../.gitbook/assets/image%20%282%29.png)
+
+
+
+```javascript
+'use strict';
+
+{
+  const scores = [80, 90, 40, 70];
+  
+  scores.push(60,50); // 末尾に追加
+  scores.shift(); // 先頭削除
+  
+  // console.log(`Score: ${scores[0]}`);
+  // console.log(`Score: ${scores[1]}`);
+  // console.log(`Score: ${scores[2]}`);
+
+  // for (let i = 0; i < 3; i++) {
+  for (let i = 0; i < scores.length ; i++) {
+    console.log(`${i}: ${scores[i]}`)
+  }
+}
+
+```
+
+### splice 削除 追加
+
+![](../.gitbook/assets/image%20%284%29.png)
+
+![](../.gitbook/assets/image%20%283%29.png)
 
