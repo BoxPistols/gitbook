@@ -215,7 +215,7 @@ const d = a => a * 2;
 el.innerHTML = d(12);
 ```
 
-## 
+
 
 ## Object
 
