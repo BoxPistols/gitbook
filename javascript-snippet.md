@@ -61,5 +61,6 @@ el.insertAdjacentHTML('afterend', post )
   Score: 2
   Score: 3
 */
+
 ```
 
