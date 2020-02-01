@@ -12,18 +12,18 @@ Source: [https://github.com/BoxPistols/JavaScriptBasicDott.git](https://github.c
 
 ```javascript
 "use strict"
-
-console.log(typeof "hello") // string
-console.log(typeof 5) // number
-console.log(typeof true) // boolean'../css/base.styl'
-
-console.log(typeof underfined)
-console.log(typeof null) // obj
-
-
-console.log('5' + 3) // 53
-console.log(parseInt('5', 10) + 3) // 8 <- parseIntで文字列を数値に変更
-
+{
+    console.log(typeof "hello") // string
+    console.log(typeof 5) // number
+    console.log(typeof true) // boolean'../css/base.styl'
+    
+    console.log(typeof underfined)
+    console.log(typeof null) // obj
+    
+    
+    console.log('5' + 3) // 53
+    console.log(parseInt('5', 10) + 3) // 8 <- parseIntで文字列を数値に変更
+}
 ```
 
 ### 演算子条件
@@ -56,8 +56,6 @@ if(score >= 50){
 if(score >= 50 && name === 'mike'){
   console.log('LON!')
 }
-
-
 ```
 
 ### Switch文
@@ -98,7 +96,6 @@ for (let i = 0; i <= 10; i++) {
   console.log(`Hello: ${i}`); //<- 1 2 3... 9 10
   el.innerHTML = (`Hello: ${i}`); //<- Hello 10
 }
-
 ```
 
 ### while / do while
@@ -153,7 +150,6 @@ function showAd2(msg = '何もなかった時表示') { // 仮引数 =  仮置�
   console.log('-------------------');
 }
 showAd2('ナイスな広告'); // 実引数
-
 ```
 
 ### 関数宣言・関数式・無名関数
@@ -180,7 +176,6 @@ const sum = function(x, y, z) { // 関数(仮引数)
  */
 const total = sum(12, 3, 4) + sum(2, 3, 4);
 console.log(total);
-
 ```
 
 ### アロー関数
@@ -214,8 +209,6 @@ const d = function (a) {
 const d = a => a * 2;
 el.innerHTML = d(12);
 ```
-
-
 
 ## Object
 
@@ -256,24 +249,21 @@ el.innerHTML = d(12);
     console.log(`${i}: ${scores[i]}`)
   }
 }
-
 ```
 
 ### Array 操作 push shift pop unshuft
 
-![TODO: &#x753B;&#x50CF;&#x5DEE;&#x3057;&#x66FF;&#x3048;](../.gitbook/assets/image%20%282%29.png)
-
-
+![TODO: &#x753B;&#x50CF;&#x5DEE;&#x3057;&#x66FF;&#x3048;](../.gitbook/assets/image-2.png)
 
 ```javascript
 'use strict';
 
 {
   const scores = [80, 90, 40, 70];
-  
+
   scores.push(60,50); // 末尾に追加
   scores.shift(); // 先頭削除
-  
+
   // console.log(`Score: ${scores[0]}`);
   // console.log(`Score: ${scores[1]}`);
   // console.log(`Score: ${scores[2]}`);
@@ -306,9 +296,9 @@ el.innerHTML = d(12);
 }
 ```
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image-4.png)
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image-3.png)
 
 ### filter
 
