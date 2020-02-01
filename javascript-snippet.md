@@ -1,4 +1,4 @@
-# JavaScript snippet
+# JavaScript Snippets
 
 ### HTML 要素取得 / 表示
 
@@ -22,5 +22,17 @@ addDiv.className = 'sample'
 el.appendChild(addDiv);
 addDiv.innerHTML = "inner要素"
 
+```
+
+### 非破壊でHTML追加
+
+参照　[https://qiita.com/amamamaou/items/624c22adec32515e863b](https://qiita.com/amamamaou/items/624c22adec32515e863b)
+
+```javascript
+let el = document.querySelector('.content')
+el.innerHTML = "コンテンツ"
+
+const post = "<h2>Test</h2>"
+el.insertAdjacentHTML('afterend', post )
 ```
 
