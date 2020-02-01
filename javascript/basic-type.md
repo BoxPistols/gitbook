@@ -322,3 +322,15 @@ el.innerHTML = d(12);
 }
 ```
 
+### 分割代入
+
+```javascript
+ const score = [40, 60, 80, 90, 120]
+ /*
+    分割代入
+ */
+ const[a,b, ...hoge] = score // hoge = 残りの配列
+ el.innerHTML = `${a} : ${b} : ${hoge}`
+
+```
+
