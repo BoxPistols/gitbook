@@ -1,5 +1,12 @@
 # JavaScript Snippets
 
+### テンプレートリテラル
+
+```javascript
+const score = [1, 2, 3]
+console.log(`${score}[0]`)
+```
+
 ### HTML 要素取得 / 表示
 
 ```javascript
@@ -34,5 +41,25 @@ el.innerHTML = "コンテンツ"
 
 const post = "<h2>Test</h2>"
 el.insertAdjacentHTML('afterend', post )
+```
+
+### 配列のHTML表示
+
+```javascript
+{
+  const el = document.querySelector('.content')
+
+  const score = [1, 2, 3]
+  console.log(`Score: ${score}`)
+  
+  for (let i = 0; i < score.length ; i++) {
+    el.insertAdjacentHTML('beforebegin', (`<h2>Score: ${score[i]}</h2>`) )
+  }
+}
+/*
+  Score: 1
+  Score: 2
+  Score: 3
+*/
 ```
 
