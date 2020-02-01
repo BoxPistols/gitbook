@@ -1,7 +1,6 @@
 # Table of contents
 
 * [FE Develop](README.md)
-* [Middleman](middleman.md)
 
 ## Ruby on Rails <a id="rails"></a>
 
@@ -17,5 +16,5 @@
 ## JavaScript
 
 * [Basic JavaScript基本構文](javascript/basic-type.md)
-* [JavaScript Snippets](javascript-snippet.md)
+* [JavaScript Snippets](javascript/javascript-snippet.md)
 

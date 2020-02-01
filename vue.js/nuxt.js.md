@@ -2,7 +2,7 @@
 
 Source: [https://github.com/BoxPistols/JavaScriptBasicDott.git](https://github.com/BoxPistols/JavaScriptBasicDott.git)
 
-### Type 型判定
+## Type 型判定
 
 ```javascript
 "use strict"
@@ -17,10 +17,9 @@ console.log(typeof null) // obj
 
 console.log('5' + 3) // 53
 console.log(parseInt('5', 10) + 3) // 8 <- parseIntで文字列を数値に変更
-
 ```
 
-### 演算子条件
+## 演算子条件
 
 ```javascript
 "use strict"
@@ -32,7 +31,7 @@ const el = document.querySelector('.content')
 el.innerHTML = score
 ```
 
-### 論理演算子
+## 論理演算子
 
 ```javascript
 'use strict'
@@ -50,11 +49,9 @@ if(score >= 50){
 if(score >= 50 && name === 'mike'){
   console.log('LON!')
 }
-
-
 ```
 
-### Switch文
+## Switch文
 
 ```javascript
 const el = document.querySelector('.content');
@@ -83,7 +80,7 @@ switch(signal) {
 }
 ```
 
-### for文
+## for文
 
 ```javascript
 let el = document.querySelector('.content');
@@ -92,10 +89,9 @@ for (let i = 0; i <= 10; i++) {
   console.log(`Hello: ${i}`); //<- 1 2 3... 9 10
   el.innerHTML = (`Hello: ${i}`); //<- Hello 10
 }
-
 ```
 
-### while / do while
+## while / do while
 
 ```javascript
 let el = document.querySelector('.content');
@@ -115,7 +111,7 @@ do{
 } while (hpMinus > 0); // 2- その後whileが稼働する
 ```
 
-### Continue / Break
+## Continue / Break
 
 ```javascript
 for (let i = 0; i <= 10; i++) {
@@ -129,7 +125,7 @@ for (let i = 0; i <= 10; i++) {
 }
 ```
 
-### 関数 / 引数
+## 関数 / 引数
 
 ```javascript
 let el = document.querySelector('.content');
@@ -147,10 +143,9 @@ function showAd2(msg = '何もなかった時表示') { // 仮引数 =  仮置�
   console.log('-------------------');
 }
 showAd2('ナイスな広告'); // 実引数
-
 ```
 
-### 関数宣言・関数式・無名関数
+## 関数宣言・関数式・無名関数
 
 ```javascript
 // 関数宣言
@@ -174,10 +169,9 @@ const sum = function(x, y, z) { // 関数(仮引数)
  */
 const total = sum(12, 3, 4) + sum(2, 3, 4);
 console.log(total);
-
 ```
 
-### アロー関数
+## アロー関数
 
 ```javascript
 let el = document.querySelector('.content');
@@ -209,7 +203,7 @@ const d = a => a * 2;
 el.innerHTML = d(12);
 ```
 
-### スコープ / グローバル変数
+## スコープ / グローバル変数
 
 ```javascript
 const x = 2;
@@ -223,14 +217,14 @@ f(); // 1 or もし無ければグローバルな変数を読みに行く↑ = 2
 console.log(x); // 2 { この中はPrivateなので読まない }
 ```
 
-### スコープのブロック分け
+## スコープのブロック分け
 
 ```javascript
   {
     const x = 300;
     console.log(x);
   }
-  
+
   { // ブロックで分けると両方出せる { } が無いとエラーになる
     const x = 100;
     console.log(x);

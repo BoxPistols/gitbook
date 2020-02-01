@@ -4,15 +4,15 @@ description: お弁当注文アプリを作ってみる
 
 # Rails example LunchBox
 
-### Scaffoldでお弁当注文一覧の作成
+## Scaffoldでお弁当注文一覧の作成
 
 スカフォルド\(足場\)
 
-#### rails g scaffold データモデル名 データ属性:形式\(複数\)
+### rails g scaffold データモデル名 データ属性:形式\(複数\)
 
 **データモデル名 = テーブル名**
 
-↑ Ruby &gt; クラス = 大文字かつ単数形 
+↑ Ruby &gt; クラス = 大文字かつ単数形
 
 ↓ Box = お弁当箱一覧
 
@@ -32,7 +32,7 @@ description: お弁当注文アプリを作ってみる
 
   ↓
 
-* Rails 
+* Rails
   * string: テキストフィールド
   * text: テキストエリア
 
@@ -82,17 +82,13 @@ description: お弁当注文アプリを作ってみる
       create    app/assets/stylesheets/scaffolds.scss
 ```
 
-#### DBを入れる
+### DBを入れる
 
 `$ rails db:migrate`
 
-#### 新規データ作成画面
+### 新規データ作成画面
 
-{% embed url="http://localhost:3000/boxes/new" %}
+{% embed url="http://localhost:3000/boxes/new" caption="" %}
 
 ![](../.gitbook/assets/image.png)
-
-
-
-
 
