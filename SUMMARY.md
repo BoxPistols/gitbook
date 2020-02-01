@@ -17,4 +17,5 @@
 ## JavaScript
 
 * [Basic JavaScript基本構文](javascript/basic-type.md)
+* [JavaScript snippet](javascript-snippet.md)
 

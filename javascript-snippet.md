@@ -1,0 +1,26 @@
+# JavaScript snippet
+
+### HTML 要素取得 / 表示
+
+```javascript
+let el = document.querySelector('.content');
+el.innerHTML = result;
+```
+
+### HTML DOM生成 表示
+
+```javascript
+const el = document.querySelector('.content')
+el.innerHTML = "コンテンツ表示"
+
+// div要素を生成
+const addDiv = document.createElement('div')
+// classを追加
+addDiv.className = 'sample'
+
+// 生成したdiv要素を追加する
+el.appendChild(addDiv);
+addDiv.innerHTML = "inner要素"
+
+```
+
