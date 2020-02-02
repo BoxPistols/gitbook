@@ -215,6 +215,8 @@ el.innerHTML = d(12);
 ```javascript
 const array = [1, 2, 3, 4];
 array.forEach(number => console.log(number));
+
+array.forEach((num, index) => console.log(index + 1, num));
 ```
 
 ## Object
