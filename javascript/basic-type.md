@@ -219,6 +219,36 @@ array.forEach(number => console.log(number));
 array.forEach((num, index) => console.log(index + 1, num));
 ```
 
+### アロー関数の種類
+
+{% tabs %}
+{% tab title="JavaScript" %}
+```javascript
+アロー関数のexpression部は、次の2種類を持つことが出来る
+
+const array = [1, 2, 3, 4];
+
+1- {}で囲わない簡潔文体(concise body)
+// 簡潔文体
+array.map(number => number + number);
+
+2- {}で囲うブロック文体(block body)
+// ブロック文体
+array.map(number => {
+  return number + number;
+});
+
+簡潔文体は、最後の処理結果がそのまま戻り値として返りますが、
+ブロック文体は自動的に値を返しません。
+そのため、明示的にreturnで値を返す必要があります。
+
+
+```
+{% endtab %}
+{% endtabs %}
+
+
+
 ## Object
 
 ### map
