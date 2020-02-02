@@ -210,6 +210,13 @@ const d = a => a * 2;
 el.innerHTML = d(12);
 ```
 
+### Arrow関数でforEach
+
+```javascript
+const array = [1, 2, 3, 4];
+array.forEach(number => console.log(number));
+```
+
 ## Object
 
 ### map
