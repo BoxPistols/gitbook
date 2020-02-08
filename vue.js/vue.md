@@ -68,3 +68,55 @@ const app = new Vue({
 </div>
 ```
 
+### v-bindで属性を設定する
+
+```markup
+<div id="app">
+  <h1>v-bindで属性を設定する</h1>
+  <div class="box">
+    <hello v-for="item in data" v-bind:name="item" />
+  </div>
+</div>
+```
+
+```javascript
+let hello = Vue.component('hello',{
+  props: ['name'],
+  template: '<p class="hell">Hello, {{ name }}</p>'
+})
+
+const app = new Vue({
+  el: '#app',
+  data: {
+    data: ['サタン',
+           'ベルゼブブ',
+           'パズズ',
+           'ラーヴァナ',
+           'マーラ',
+           'イブリース',
+           'アンラ・マンユ(アンリ・マユ)',
+           'テスカトリポカ']
+  }
+})
+```
+
+```markup
+Hello, サタン
+
+Hello, ベルゼブブ
+
+Hello, パズズ
+
+Hello, ラーヴァナ
+
+Hello, マーラ
+
+Hello, イブリース
+
+Hello, アンラ・マンユ(アンリ・マユ)
+
+Hello, テスカトリポカ
+```
+
+### v-modelを使い、入力値で表示させる
+
