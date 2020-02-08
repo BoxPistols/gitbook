@@ -2,7 +2,7 @@
 description: Vue Basic
 ---
 
-# Vue
+# Vue Basic
 
 ### date関数で、変数にコンポーネントを渡す
 

@@ -14,7 +14,6 @@
 
 ## Vue.js
 
-* [Vue](vue.js/vue.md)
-* [Basic](vue.js/basic.md)
+* [Vue Basic](vue.js/vue.md)
 * [Nuxt.js](vue.js/nuxt.js.md)
 

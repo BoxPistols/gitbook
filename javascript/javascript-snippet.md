@@ -80,6 +80,7 @@ el.insertAdjacentHTML('afterend', post )
   // splice: -> 配列[2番目] = 3つ目 から 2つ削除 = 60, 80 して、そこに item追加
   // score.splice(2, 2, 123, 456)
 
+
   /*
    ...スップレッド構文 を関数の引数に使う
  */
