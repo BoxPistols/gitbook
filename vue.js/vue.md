@@ -35,7 +35,27 @@ const app = new Vue({
 });
 ```
 
+### props: name属性で名前を指定
 
+```javascript
+Vue.component('hell',{
+  props: ['name'],
+  template: '<p class="hell">Hell! {{ name }}</p>'
+});
 
+const app = new Vue({
+  el: '#root',
+});
+```
 
+```markup
+<div id="root">
+  <h1>
+    <hell name="地獄の３丁目"/>    
+  </h1>
+  <h2>
+    <hell name="地獄の4丁目"/>    
+  </h2>
+</div>
+```
 
