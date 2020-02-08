@@ -120,3 +120,35 @@ Hello, テスカトリポカ
 
 ### v-modelを使い、入力値で表示させる
 
+```markup
+<div id="app">
+  <div class="box container">
+    <p>v-modelで入力値でコンポーネントを表示</p>
+    <div class="row">
+      <div class="column column-25 column-offset-25">
+        // template props
+        <hello v-bind:name="name" />
+      </div>
+      <div class="column column-25">
+        // v-model
+        <input type="text" v-model="name">
+      </div>
+    </div>
+  </div>
+</div>
+```
+
+```javascript
+let hello = Vue.component('hello',{
+  props: ['name'],
+  template: '<p class="hell">Hello, {{ name }}</p>'
+})
+
+const app = new Vue({
+  el: '#app',
+  data: {
+    name: ''
+  },
+})
+```
+
