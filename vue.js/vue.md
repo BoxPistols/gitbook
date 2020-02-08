@@ -35,11 +35,20 @@ const app = new Vue({
 });
 ```
 
+```css
+body
+  background: #234
+  color: gray
+.hell
+  color: crimson
+```
+
 ### props: name属性で名前を指定
 
 ```javascript
 Vue.component('hell',{
   props: ['name'],
+  //  props: { name:String }, <- 型指定
   template: '<p class="hell">Hell! {{ name }}</p>'
 });
 
