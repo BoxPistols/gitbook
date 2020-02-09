@@ -186,6 +186,8 @@ const app = new Vue({
 
 ### Method イベント処理を別途用意
 
+[Vue.js: 複数のクラスをバインディングする場合どのような書き方があるか](https://qiita.com/FumioNonaka/items/08ab308cf1e931d4b2eb)
+
 ```markup
 <div id="app">
   <div class="box container">
