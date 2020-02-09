@@ -152,3 +152,33 @@ const app = new Vue({
 })
 ```
 
+### v-on でイベントをbind
+
+```markup
+<div id="app">
+  <div class="box container">
+    <p>v-onでイベントをバインド</p>
+    <div class="row">
+      <div class="column column-25 column-offset-25">
+        <hello />
+      </div>
+    </div>
+  </div>
+</div>
+```
+
+```javascript
+let hello = Vue.component('hello',{
+data: function(){
+  return {
+    counter: 0
+  };
+},
+template: '<p class="hell" v-on:click="counter++;">Hello, {{ counter }}</p>'
+})
+
+const app = new Vue({
+  el: '#app',
+})
+```
+
