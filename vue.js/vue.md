@@ -154,6 +154,8 @@ const app = new Vue({
 
 ### v-on でイベントをbind
 
+[https://jsfiddle.net/StyleEye/to67demy/9/](https://jsfiddle.net/StyleEye/to67demy/9/)
+
 ```markup
 <div id="app">
   <div class="box container">
@@ -181,4 +183,81 @@ const app = new Vue({
   el: '#app',
 })
 ```
+
+### Method イベント処理を別途用意
+
+```markup
+<div id="app">
+  <div class="box container">
+    <div class="row">
+      <div class="column column-25 column-offset-25">
+        <hello />
+      </div>
+    </div>
+  </div>
+</div>
+```
+
+```javascript
+let hello = Vue.component('hello',{
+data: function(){
+  return {
+    counter: 0,
+    isRed: false,
+		isBorderChange: false,
+  };
+},
+methods: {
+  doAction:function(event){
+	this.counter++;
+		if(this.counter > 10) {
+      this.counter = 0;
+    }
+		if(this.counter % 2 == 0) {
+			this.isRed = true;
+			this.isBorderChange = false;
+    } else {
+			this.isRed = false;
+			this.isBorderChange = true;
+		}
+  }
+},
+template: '<p class="hell" v-bind:class="{red:isRed, teal:isBorderChange}" v-on:click="doAction">Clicked, {{ counter }}</p>'
+})
+
+const app = new Vue({
+  el: '#app',
+})
+```
+
+```css
+body{
+  font-size: 200%;
+  padding: 0 24px;
+	color: #234;
+	}
+.box{
+  padding: 24px;
+	}
+.hell{
+  font-size: 200%;
+  color: orange;
+  cursor: pointer;
+  border: 4px solid orange;
+  text-align: center;
+	white-space: nowrap;
+	width: fit-content;
+	padding: 12px 24px;
+	border-radius: 10px;
+}
+.red{
+	color:crimson;
+	transition: .7s;
+}
+.teal{
+	border-color: teal;
+}
+```
+
+
 
