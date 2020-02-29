@@ -355,9 +355,24 @@ array.map(number => {
   //   }
   // });
 
+  // 一行で
   const evenNumbers = numbers.filter(number => number % 2 === 0);
 
   console.log(evenNumbers);
+  
+  ---------------------------------------
+  
+  // 式自体を return
+  const evenNum = numbers.filter(num => {
+     return num % 3 === 0;
+  });
+
+  // さらに短く
+  const evenNum = numbers.filter(num => num % 3 === 0)
+  
+  const el = document.querySelector(".content");
+  el.insertAdjacentHTML("beforeend", `<h2>even：${evenNum}</h2>`);
+
 }
 ```
 
@@ -372,4 +387,61 @@ array.map(number => {
  el.innerHTML = `${a} : ${b} : ${hoge}`
 
 ```
+
+### Object オブジェクトの取得と操作
+
+```javascript
+"use strict";
+
+{
+  const el = document.querySelector(".content");
+  // el.insertAdjacentHTML("beforeend", `<p>テスト：テスト${null}`);
+
+  const others = {
+    r: 111,
+    color: "red"
+  };
+
+  const point = {
+    x: 100,
+    y: 180,
+    n: 120,
+    ...others // include
+  };
+
+  point.x = 120; // 上書き
+  point.z = 90; // 要素追加
+
+  // delete point.z
+  // console.log(point)
+
+  // キーからプロパティを取得
+  el.insertAdjacentHTML("beforeEnd", `<p>キーからプロパティを取得：${point.z}`);
+
+  // forで全部取得 <- 冗長？
+  // for (var i = 0; i < Object.keys(point).length; i++) {
+  //   el.insertAdjacentHTML(
+  //     "beforeEnd",
+  //     `<p>Obj：
+  //     ${Object.keys(point)[i]}:
+  //     ${Object.values(point)[i]}`
+  //   );
+  // }
+  
+  // forEachで取得
+  const keys = Object.keys(point);　// 定数keysにオブジェクト内容を設定
+  keys.forEach(key => {　// keyという名前でキーを全部受け取る
+  // キーの取得 ＝ ${key} ＆　プロパティの取得 ＝ ${point[key]}
+    el.insertAdjacentHTML("beforeEnd", `<div class="fx"><p>Key：${key}</p> <p>Value：${point[key]}</p></div>`);
+  });
+
+}
+
+```
+
+
+
+
+
+
 
