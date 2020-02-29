@@ -439,6 +439,25 @@ array.map(number => {
 
 ```
 
+### 文字列
+
+```javascript
+"use strict";
+
+{
+  const el = document.querySelector(".content");
+  el.insertAdjacentHTML("beforeend", `<p>テスト：テスト${null}`);
+
+  const str = "吉田かおり"
+
+  // 文字数： str.length
+  // 部分文字列： str.substring(2, 4)
+  let end = str.length
+  el.insertAdjacentHTML("beforeend", `<p>テスト：テスト${str.substring(0, end)}`);
+}
+
+```
+
 
 
 
