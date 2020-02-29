@@ -16,4 +16,5 @@
 
 * [Vue Basic](vue.js/vue.md)
 * [Nuxt.js](vue.js/nuxt.js.md)
+* [Axios on Vue](axios-on-vue.md)
 
