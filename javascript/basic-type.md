@@ -528,8 +528,30 @@ ${str.substring(0, end - 1)}`);
     少数点 num桁表示 avg.Math.toFixed(3)
   */
 }
-
 ```
 
+### ランダム
 
+```javascript
+  /*
+  console.log(Math.random()); 0以上1未満
+
+  0, 1, 2
+  Math.floor(Math.random() * 3)
+
+  0, ..., n
+  Math.floor(Math.random() * (n + 1))
+
+  min, ..., max
+  Math.floor(Math.random() * (max + 1 - min)) + min
+  el.insertAdjacentHTML("beforeend", `<h3>ランダム</h3>`);
+  console.log(Math.floor(Math.random() * 6) + 1);
+*/
+
+// サイコロ ＝ 1 - 6 の間の整数
+  el.insertAdjacentHTML(
+    "beforeend",
+    `<h3>サイコロ ランダム：　${Math.floor(Math.random() * 6) + 1}</h3>`
+  );
+```
 
