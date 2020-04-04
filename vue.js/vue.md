@@ -154,7 +154,7 @@ const app = new Vue({
 
 ### v-on でイベントをbind
 
-[https://jsfiddle.net/StyleEye/to67demy/9/](https://jsfiddle.net/StyleEye/to67demy/9/)
+[https://jsfiddle.net/StyleEye/to67demy/43/](https://jsfiddle.net/StyleEye/to67demy/43/)
 
 ```markup
 <div id="app">
