@@ -125,3 +125,13 @@ el.insertAdjacentHTML('afterend', post )
 }
 ```
 
+### 配列のソート Sort
+
+```javascript
+let arr = [20,12,33,12,15,18,1,2]
+arr.sort(function(a, b) {    
+    return a > b ? 1 : -1
+})
+arr
+```
+
