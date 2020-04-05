@@ -102,6 +102,26 @@ el.insertAdjacentHTML('afterend', post )
   el.innerHTML = `${a} : ${b} : ${hoge}`
 
 }
+```
 
+### 配列の合計
+
+```javascript
+{
+  const arr = [1, 2, 3, 4, 5];
+ 
+   const res = (arr) =>{
+    
+    let sum = 0;
+  
+    arr.forEach((elm) =>{
+      sum += elm;
+    });
+    
+    return sum;
+  };
+  
+  document.write(res(arr)); // 15
+}
 ```
 
