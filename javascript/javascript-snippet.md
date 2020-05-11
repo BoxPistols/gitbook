@@ -39,7 +39,19 @@ let el = document.querySelector('.content')
 el.innerHTML = "コンテンツ"
 
 const post = "<h2>Test</h2>"
-el.insertAdjacentHTML('afterend', post )
+el.insertAdjacentHTML('beforeend', post )
+```
+
+#### insertAdjacentHTMLの位置関係
+
+```markup
+<!-- beforebegin -->
+<element>
+  <!-- afterbegin -->
+  <child>Text</child>
+  <!-- beforeend -->
+</element>
+<!-- afterend -->
 ```
 
 ## 配列のHTML表示
