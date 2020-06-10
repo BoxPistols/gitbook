@@ -555,3 +555,23 @@ ${str.substring(0, end - 1)}`);
   );
 ```
 
+### import  / export
+
+Foo.js
+
+```javascript
+export default function Foo(){}
+  return (<p>foo</p>)
+```
+
+Bar.js
+
+```javascript
+const Bar = () =>{
+  return (<p>boo</p>)
+}
+export default Bar
+```
+
+
+
