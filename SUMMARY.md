@@ -1,6 +1,6 @@
 # Table of contents
 
-* [FE Develop](README.md)
+* [Home](README.md)
 
 ## JavaScript
 
@@ -16,5 +16,8 @@
 ## Vue.js
 
 * [Vue Basic](vue.js/vue.md)
+
+---
+
 * [Axios on Vue](axios-on-vue.md)
 
