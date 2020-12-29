@@ -17,7 +17,3 @@
 
 * [Vue Basic](vue.js/vue.md)
 
----
-
-* [Axios on Vue](axios-on-vue.md)
-
