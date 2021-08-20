@@ -29,6 +29,8 @@ on tsconfig.json
 "module": "amd",
 ```
 
+Modern JS
+
 ```javascript
 "target": "esnext",
 "module": "esnext",
@@ -44,16 +46,21 @@ on tsconfig.json
 
 ### Add Folder Path 
 
+ターゲット階層
+
 ```javascript
 {
   "compilerOptions": {
     "target": "es5", // esnext
     "module": "commonjs", // esnext
     "strict": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "outDir": "dist"
   },
   "include": ["src/**/*"]
 }
 
 ```
+
+ignore -&gt; dist
 
