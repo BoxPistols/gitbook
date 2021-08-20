@@ -15,4 +15,5 @@
 ## typescript
 
 * [init typescript](typescript/init-typescript.md)
+* [target / module](typescript/target-module.md)
 
