@@ -17,4 +17,5 @@
 * [init typescript](typescript/init-typescript.md)
 * [target / module](typescript/target-module.md)
 * [declaration / 型宣言ファイル](typescript/declaration-fairu.md)
+* [JavaScript file include TS & build](typescript/javascript-file-include-ts-and-build.md)
 
