@@ -1,23 +1,24 @@
 ---
-description: TypeScript3.0から搭載
+description: TypeScript3.0以降、buildコマンドが導入された
 ---
 
 # Build Mode
 
 ## Build Mode
 
-### tsc -b --xxx
+`tsc -b tsconfig.json --verbos  // ログ出力`
 
-* verbose
-  * ログ
-* dry
-  * ビルドテスト、出力なし
-* clean
-  * dist/ 削除
-* force
-  * 関連しないファイルもビルドする
-* watch
-  * 監視
+`tsc -b tsconfig.json --dry　// ビルドテスト、出力しない`
 
-`tsc -b tsconfig.json --clean`
+`tsc -b tsconfig.json --clean　// Distフォルダなど削除` 
+
+監視
+
+`tsc -b tsconfig.json --force`
+
+監視
+
+`tsc -b tsconfig.json --watch`　
+
+監視
 
