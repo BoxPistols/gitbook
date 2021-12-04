@@ -292,7 +292,7 @@ array.map(number => {
 
 ### Array 操作 push shift pop unshuft
 
-![TODO: &#x753B;&#x50CF;&#x5DEE;&#x3057;&#x66FF;&#x3048;](../.gitbook/assets/image-2.png)
+![TODO: 画像差し替え](<../.gitbook/assets/image (2).png>)
 
 ```javascript
 'use strict';
@@ -335,9 +335,9 @@ array.map(number => {
 }
 ```
 
-![](../.gitbook/assets/image-4.png)
+![](<../.gitbook/assets/image (4).png>)
 
-![](../.gitbook/assets/image-3.png)
+![](<../.gitbook/assets/image (3).png>)
 
 ### filter
 
@@ -572,6 +572,4 @@ const Bar = () =>{
 }
 export default Bar
 ```
-
-
 
