@@ -102,20 +102,9 @@ const app = new Vue({
 
 ```markup
 Hello, サタン
-
 Hello, ベルゼブブ
-
 Hello, パズズ
-
-Hello, ラーヴァナ
-
-Hello, マーラ
-
-Hello, イブリース
-
-Hello, アンラ・マンユ(アンリ・マユ)
-
-Hello, テスカトリポカ
+...
 ```
 
 ### v-modelを使い、入力値で表示させる
@@ -206,22 +195,22 @@ data: function(){
   return {
     counter: 0,
     isRed: false,
-		isBorderChange: false,
+    isBorderChange: false,
   };
 },
 methods: {
   doAction:function(event){
-	this.counter++;
-		if(this.counter > 10) {
+    this.counter++;
+    if(this.counter > 10) {
       this.counter = 0;
     }
-		if(this.counter % 2 == 0) {
-			this.isRed = true;
-			this.isBorderChange = false;
+    if(this.counter % 2 == 0) {
+      this.isRed = true;
+      this.isBorderChange = false;
     } else {
-			this.isRed = false;
-			this.isBorderChange = true;
-		}
+        this.isRed = false;
+        this.isBorderChange = true;
+    }
   }
 },
 template: '<p class="hell" v-bind:class="{red:isRed, teal:isBorderChange}" v-on:click="doAction">Clicked, {{ counter }}</p>'
@@ -236,30 +225,28 @@ const app = new Vue({
 body{
   font-size: 200%;
   padding: 0 24px;
-	color: #234;
-	}
+  color: #234;
+}
 .box{
   padding: 24px;
-	}
+}
 .hell{
   font-size: 200%;
   color: orange;
   cursor: pointer;
   border: 4px solid orange;
   text-align: center;
-	white-space: nowrap;
-	width: fit-content;
-	padding: 12px 24px;
-	border-radius: 10px;
+  white-space: nowrap;
+  width: fit-content;
+  padding: 12px 24px;
+  border-radius: 10px;
 }
 .red{
-	color:crimson;
-	transition: .7s;
+  color:crimson;
+  transition: .7s;
 }
 .teal{
-	border-color: teal;
+  border-color: teal;
 }
 ```
-
-
 

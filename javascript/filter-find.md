@@ -1,3 +1,7 @@
+---
+description: '*document.writeは現在非推奨です'
+---
+
 # filter find
 
 ### filter 検索 抽出
@@ -98,4 +102,3 @@ document.write(`本日の「${eliteCount}時間勤務」は${resultElite.length}
 
 
 ```
-
