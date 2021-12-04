@@ -18,5 +18,4 @@
 * [target / module](typescript/target-module.md)
 * [declaration / 型宣言ファイル](typescript/declaration-fairu.md)
 * [JavaScript file include TS & build](typescript/javascript-file-include-ts-and-build.md)
-* [Build Mode](typescript/build-mode.md)
-* [Build Mode](typescript/build-mode-1.md)
+* [Build Mode オプション](typescript/build-mode.md)

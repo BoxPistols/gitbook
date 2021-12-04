@@ -1,8 +1,8 @@
 ---
-description: TypeScript3.0以降、buildコマンドが導入された
+description: オプションTypeScript3.0以降、buildコマンドが導入された
 ---
 
-# Build Mode
+# Build Mode オプション
 
 ## Build Mode
 
@@ -10,7 +10,7 @@ description: TypeScript3.0以降、buildコマンドが導入された
 
 `tsc -b tsconfig.json --dry　// ビルドテスト、出力しない`
 
-`tsc -b tsconfig.json --clean　// Distフォルダなど削除` 
+`tsc -b tsconfig.json --clean　// Distフォルダなど削除`&#x20;
 
 監視
 
@@ -20,5 +20,17 @@ description: TypeScript3.0以降、buildコマンドが導入された
 
 `tsc -b tsconfig.json --watch`　
 
-監視
+## オプション
 
+### tsc -b --xxx
+
+* verbose
+  * ログ
+* dry
+  * ビルドテスト、出力なし
+* clean
+  * dist/ 削除
+* force
+  * 関連しないファイルもビルドする
+* watch
+  * 監視
