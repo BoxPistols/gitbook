@@ -292,7 +292,7 @@ array.map(number => {
 
 ### Array 操作 push shift pop unshuft
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (1).png>)
 
 ```javascript
 'use strict';
@@ -335,9 +335,7 @@ array.map(number => {
 }
 ```
 
-![](<../.gitbook/assets/image (4).png>)
-
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (1).png>)
 
 ### filter
 
