@@ -292,7 +292,7 @@ array.map(number => {
 
 ### Array 操作 push shift pop unshuft
 
-![TODO: 画像差し替え](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (1).png>)
 
 ```javascript
 'use strict';
