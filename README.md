@@ -1,10 +1,10 @@
 ---
-description: This is JavaScript Document
+description: Living Standard
+coverY: 0
 ---
 
-# Home
+# HTML
 
-## About this book
+## Welcome aboard!
 
-{% embed url="https://atit.gitbook.io/book/" caption="" %}
-
+Welcome to the company wiki! Here you'll find everything you need to know about the company.

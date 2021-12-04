@@ -1,23 +1,12 @@
 # Table of contents
 
-* [Home](README.md)
+* [HTML](README.md)
 
-## JavaScript
+## index
 
-* [Basic JavaScript基本構文](javascript/basic-type.md)
-* [JavaScript Snippets](javascript/javascript-snippet.md)
-* [filter find](javascript/filter-find.md)
+* [概要](index/gai-yao.md)
+* [Living Standard](index/living-standard.md)
 
-## Vue.js
+## Form
 
-* [Vue Basic](vue.js/vue.md)
-
-## typescript
-
-* [init typescript](typescript/init-typescript.md)
-* [target / module](typescript/target-module.md)
-* [declaration / 型宣言ファイル](typescript/declaration-fairu.md)
-* [JavaScript file include TS & build](typescript/javascript-file-include-ts-and-build.md)
-* [Build Mode](typescript/build-mode.md)
-* [Build Mode](typescript/build-mode-1.md)
-
+* [フォーム共通スタイル](form/fmusutairu.md)
