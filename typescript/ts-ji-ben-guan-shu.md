@@ -21,7 +21,7 @@ console.log(x)
 console.log(y)
 ```
 
-![Quokkaでの即時表示 / Atom Editor](<../.gitbook/assets/image (1).png>)
+![Quokkaでの即時表示 / Atom Editor](<../.gitbook/assets/image (1) (1).png>)
 
 ### オーバーロード
 
@@ -42,7 +42,7 @@ overLoad(1, 2)
 overLoad("much", 2)
 ```
 
-![result value](<../.gitbook/assets/image (5).png>)
+![result value](<../.gitbook/assets/image (5) (1).png>)
 
 オーバーライド パターン
 
