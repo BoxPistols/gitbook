@@ -21,6 +21,29 @@ console.log(x)
 console.log(y)
 ```
 
-Quokkaでの即時表示 / Atom Editor
+![Quokkaでの即時表示 / Atom Editor](<../.gitbook/assets/image (1).png>)
 
-![](<../.gitbook/assets/image (1).png>)
+### オーバーロード
+
+```javascript
+// ===== 関数のオーバーロード =====
+
+function overNum(a: number, b: number): number; // 関数のシグネチャ = 組み合わせ
+function overStr(a: string, b: string): string;
+
+// 実務的な書き方
+function overLoad(a: any, b: any): any {
+    if (typeof a === "number" && typeof b === "number") {
+        return a + b
+    }
+    return a + " " + b
+}
+overLoad(1, 2)
+overLoad("much", 2)
+```
+
+![result value](<../.gitbook/assets/image (5).png>)
+
+オーバーライド パターン
+
+![](<../.gitbook/assets/image (6).png>)
