@@ -1,23 +1,28 @@
 # Table of contents
 
-* [Home](README.md)
+* [Rails Wiki](README.md)
 
-## JavaScript
+## Ruby
 
-* [Basic JavaScript基本構文](javascript/basic-type.md)
-* [JavaScript Snippets](javascript/javascript-snippet.md)
-* [filter find](javascript/filter-find.md)
+* [Ruby Basic](ruby/ruby-basic.md)
 
-## Vue.js
+## Rails Note
 
-* [Vue Basic](vue.js/vue.md)
+* [DBの形式変換Rais6](rails-note/db.md)
+* [Rails開発環境](rails-note/rails-kai-fa-huan-jing.md)
+* [共通コンポネント](rails-note/component.md)
+* [Hello Rails](rails-note/hello-rails/README.md)
+  * [Genarate Controllr](rails-note/hello-rails/genarate-controllr.md)
+  * [Create Action](rails-note/hello-rails/create-action.md)
 
-## typescript
+## Zero One \[QA Service]
 
-* [init typescript](typescript/init-typescript.md)
-* [target / module](typescript/target-module.md)
-* [declaration / 型宣言ファイル](typescript/declaration-fairu.md)
-* [JavaScript file include TS & build](typescript/javascript-file-include-ts-and-build.md)
-* [Build Mode オプション](typescript/build-mode.md)
-* [TS基本 関数](typescript/ts-ji-ben-guan-shu.md)
-* [TS基本 Class](typescript/ts-ji-ben-class.md)
+* [QA-Servrice Index](zero-one-qa-service/qa-servrice-index.md)
+* [Setting](zero-one-qa-service/setting.md)
+* [Crate Model Base](zero-one-qa-service/crate-model-base.md)
+* [Add Bootstrap/FontAwesome](zero-one-qa-service/add-bootstrap-fontawesome.md)
+* [Save Model on Save](zero-one-qa-service/save-model-on-save.md)
+
+## Rails Vue
+
+* [Add Vue on Rails](rails-vue/add-vue-on-rails.md)
