@@ -19,3 +19,4 @@
 * [declaration / 型宣言ファイル](typescript/declaration-fairu.md)
 * [JavaScript file include TS & build](typescript/javascript-file-include-ts-and-build.md)
 * [Build Mode オプション](typescript/build-mode.md)
+* [TS基本 関数](typescript/ts-ji-ben-guan-shu.md)
