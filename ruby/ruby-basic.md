@@ -66,3 +66,19 @@ puts "ずつ配ります"
 # マスカットを12個
 # ずつ配ります
 ```
+
+#### while break
+
+```ruby
+i = 1
+while i <= 10 do
+  if i == 3
+    puts "一時停止"
+    break
+  end
+  puts i
+  i += 1
+end
+
+# 1 2 一時停止
+```
