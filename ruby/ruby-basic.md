@@ -25,3 +25,16 @@ end
 ```
 
 ### Loop
+
+#### while
+
+```ruby
+# while: 1になるまで引き算して繰り返す
+i = 5
+while  i > 0 do
+  puts i
+  i -= 1
+end
+
+# 5 4 3 2 1
+```
