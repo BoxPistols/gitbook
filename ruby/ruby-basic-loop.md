@@ -1,8 +1,8 @@
 ---
-description: Ruby code basic
+description: Ruby basic code / while for each break
 ---
 
-# Ruby Basic
+# Ruby Basic Loop
 
 ## Ruby基本構文
 

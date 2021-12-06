@@ -4,7 +4,8 @@
 
 ## Ruby
 
-* [Ruby Basic](ruby/ruby-basic.md)
+* [Ruby Basic Loop](ruby/ruby-basic-loop.md)
+* [Ruby Basic Method](ruby/ruby-basic-method.md)
 
 ## Rails Note
 
