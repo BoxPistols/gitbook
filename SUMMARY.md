@@ -6,6 +6,7 @@
 
 * [Ruby Basic Loop](ruby/ruby-basic-loop.md)
 * [Ruby Basic Method](ruby/ruby-basic-method.md)
+* [Fizz Buzz on Rails](ruby/fizz-buzz-on-rails.md)
 
 ## Rails Note
 
