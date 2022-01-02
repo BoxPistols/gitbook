@@ -233,5 +233,7 @@ app/views/boards/index.html.erb
 <p>lorem ipsum dolor sit amet, consectetur adip</p>
 ```
 
+
+
 {% embed url="http://localhost:3333" %}
 
