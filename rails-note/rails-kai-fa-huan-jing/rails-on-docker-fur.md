@@ -233,7 +233,5 @@ app/views/boards/index.html.erb
 <p>lorem ipsum dolor sit amet, consectetur adip</p>
 ```
 
-
-
-{% embed url="http://localhost:3333" %}
+![http://localhost:3333/](../../.gitbook/assets/image.png)
 
