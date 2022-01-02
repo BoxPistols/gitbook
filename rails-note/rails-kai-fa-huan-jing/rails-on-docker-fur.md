@@ -2,7 +2,7 @@
 description: Develop Rails on Docker / Mac M1 （多分Win その他でも同じ） 2022.01.01~
 ---
 
-# Docker on Rails
+# Rails on Docker 導入フロー
 
 ### Why This?
 
@@ -233,4 +233,5 @@ app/views/boards/index.html.erb
 <p>lorem ipsum dolor sit amet, consectetur adip</p>
 ```
 
-***
+{% embed url="http://localhost:3333" %}
+

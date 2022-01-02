@@ -73,7 +73,6 @@ end
 
 ```
 
-
 rails db:migrate
 ```
 
@@ -81,10 +80,8 @@ rails db:migrate
 
 `sqlite> .schema`
 
-REATE TABLE sqlite\_sequence(name,seq); \
+REATE TABLE sqlite\_sequence(name,seq);\
 CREATE TABLE IF NOT EXISTS "questions" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "title" varchar, "content" text, "created\_at" datetime(6) NOT NULL, "updated\_at" datetime(6) NOT NULL);
-
-
 
 routes
 
@@ -109,4 +106,3 @@ routes
                             PUT    /questions/:id(.:format)                                                                          questions#update
                             DELETE /questions/:id(.:format)                                                                          questions#destroy
 ```
-
