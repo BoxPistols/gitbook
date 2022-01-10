@@ -13,7 +13,7 @@
 * [DBの形式変換Rais6](rails-note/db.md)
 * [Rails開発環境](rails-note/rails-kai-fa-huan-jing.md)
   * [Rails on Docker 導入フロー](rails-note/rails-kai-fa-huan-jing/rails-on-docker-fur.md)
-* [共通コンポネント](rails-note/component.md)
+* [2022 Re:Rails](rails-note/component.md)
 * [Hello Rails](rails-note/hello-rails/README.md)
   * [Genarate Controllr](rails-note/hello-rails/genarate-controllr.md)
   * [Create Action](rails-note/hello-rails/create-action.md)

@@ -1,8 +1,11 @@
-# 共通コンポネント
+---
+description: Rails
+---
 
-### Partial
+# 2022 Re:Rails
 
-共通
 
-コンポーコンポネント
 
+一旦ここで展開
+
+{% embed url="https://hackmd.io/@ait/HyfxdiY3t" %}
